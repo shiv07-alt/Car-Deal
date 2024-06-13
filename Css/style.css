@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    font-family: Inter;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+    
+img{
+    max-width: 100%;
+}
+header{
+    padding-block: 20px;
+}
+.header-logo a{
+    display: inline-block;
+}
+.header-logo img{
+    height: 80px;
+}
+.header-menu ul li:first-child{
+    margin-inline-start: 0;
+}
+.header-menu ul li{
+    margin-inline-start: 60px;
+}
+.header-menu ul li a{
+    text-decoration: none;    
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(251, 120, 0, 1);
+}
+.nav-sigin h3{    
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;        
+    color: rgba(251, 120, 0, 1);
+}
+.menu-content ul li{
+    transition: 0.3s all;
+}
+
+.menu-content  a::after{
+    content:'';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color:  rgba(251, 120, 0, 1);
+    transition: width .3s;
+}
+.menu-content a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+.mobile-sidenav-btn {
+    display: none;
+}
+.mobile-sidenav-btn button {
+    border: 2px solid rgba(251, 120, 0, 1);
+    background: transparent;
+    color: rgba(251, 120, 0, 1);
+    border-radius: 5px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start: auto;
+}
+.mobile-sidenav-content {
+    width: 0;
+    max-width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(251, 120, 0, 1);
+    overflow-x: hidden;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-sidenav-content ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+    margin-block-end: 35px;
+    display: block;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
+.mobile-sidenav-content a.site-btn.btn-dark-bg.ms-5 {
+    margin-inline-start: 0 !important;
+}
+.sidenav-close-btn button {
+    color: #fff;
+    border-color: #fff
+}
+.sidenav-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.site-btn{
+    text-decoration: none;
+    font-weight: 500;
+}
+.hero-section{
+    background-image: url(../img/vistara_banner\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.py-70{
+    padding-block: 70px;
+}
+.hero-outer{
+    padding-block: 205px;
+}
+.hero-banner-content {
+    width: 550px;
+}
+.hero-banner-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.hero-banner-content p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-block: 20px;
+}
+
+.about-right {
+    padding-inline-end: 100px;
+}
+.min-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(251, 140, 0, 1);
+}
+.heading{
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+    padding-block-start: 20px;
+}
+.about-points ul li {
+    padding-block-start: 25px;
+}
+.check-text {
+    padding-inline-start: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.sub-heading {
+    padding-block-start: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    line-height: 24px;
+    text-align: justify;
+}
+.car-title {
+    padding-block-end: 40px;
+    text-align: center;
+}
+.car-title .heading {    
+    padding-block-end: 15px;
+}
+.car-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.car-details{
+    padding-inline: 40px;
+}
+.car-details .car-name {
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+}
+.car-functions ul li .car-features {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding-inline-start: 10px;
+}
+.car-functions ul li:first-child{
+    padding-block-start: 30px;
+}
+.car-functions ul li:not(:first-child){
+    padding-block-start: 20px;
+}
+.car-details .lrn-more {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: orangered;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-block-start: 20px;
+}
+.media-apps ul li a {
+    display: inline-block;
+}
+.app-content{
+    text-align: justify;
+}
+.app-points ul li{
+    padding-block-start: 50px;
+}
+.app-points ul li i {
+    font-size: 24px;
+}
+.download-app{
+    padding-block-start: 60px;
+}
+.download-app a{
+    display: inline-block;
+}
+.media-apps ul li i{
+    color: white;
+    background-color: rgba(255, 107, 0, 0.88);
+    margin-inline-start: 20px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.bottom-line {
+    border-top: 1px solid black;
+    margin-block-start: 5px;
+}
+.footer-inner{
+    padding-block-start: 40px;
+}
+.footer-txt {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-block: 5px 20px; 
+}
+.footer-content ul li a {
+    text-decoration: none;
+    color: black;
+}
+.footer-content ul li h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(83, 73, 73, 1);
+}
+.form-inner .inp{
+    margin-block: 10px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgba(83, 73, 73, 1);
+    width: 100%;
+    padding: 8px;
+}
+.submit-btn {
+    border: none;
+    background-color: rgba(255, 107, 0, 0.88);
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    margin-block-end: 20px;
+}

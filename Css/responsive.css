@@ -1,0 +1,246 @@
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 1024px){
+    .header-logo a img {
+        height: 60px;
+    }
+    .header-menu ul li {
+        margin-inline-start: 40px;
+    }
+    .hero-outer {
+        padding-block: 125px;
+    }
+    .about-right {
+        padding-inline-end: 30px;
+    }
+}
+@media screen and (max-width: 991px){
+    .header-menu ul li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .header-menu ul li {
+        margin-inline-start: 25px;
+    }
+    header {
+        padding-block: 10px;
+    }
+    .hero-store a img {
+        width: 140px;
+    }
+    .car-details {
+        padding-inline: 20px;
+    }
+    .car-details .car-name {
+        font-size: 24px;
+    }
+    .app-points ul li {
+        padding-block-start: 40px;
+    }
+    .download-app {
+        padding-block-start: 40px;
+    }
+}
+@media screen and (max-width: 768px){
+    .hero-banner-content h1 {
+        font-size: 38px;
+    }
+    .hero-outer {
+        padding-block: 80px;
+    }
+    .py-70 {
+        padding-block: 50px;
+    }
+    .about-right {
+        padding-inline-end: 0px;
+    }
+    .heading {
+        font-size: 22px;
+    }
+    .about-points ul li {
+        padding-block-start: 20px;
+    }
+    .sub-heading {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px){
+    .header-menu {
+        display: none;
+    }
+    .mobile-sidenav-btn {
+        display: block;
+    }
+    .heading-section h5 {    
+        font-size: 14px;        
+    }
+    .hero-banner-content {
+        width:420px;
+    }
+    .hero-outer {
+        padding-block: 70px;
+    }
+    .hero-banner-content h1 {
+        font-size: 30px;
+    }
+    .about-section .container-fluid {
+        padding-inline: 15px !important;
+    }
+    .about-right {
+        padding-inline: 120px;
+        text-align: center;
+    }
+    .sub-heading {
+        text-align: center;
+    }
+    section.car-section {
+        text-align: justify;
+    }
+    .car-details .car-name {
+        font-size: 20px;    
+    }
+    .car-details .lrn-more {
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 5px;        
+    }    
+    .app-content .min-heading {
+        padding-block-start: 30px;
+    }
+    .app-content .heading {
+        padding-block-start: 20px;
+    }
+    .app-content .sub-heading {
+        padding-block-start: 10px;
+        text-align: justify;
+    }
+    .app-points ul li {
+        padding-block-start: 20px;
+    }
+    .car-details {
+        padding-inline: 10px;
+    }
+    .car-functions ul li .car-features {
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 580px){
+    .hero-banner-content p {
+        font-size: 18px;
+        margin-block: 10px;
+    }
+    .hero-outer {
+        padding-block: 55px;
+    }
+    .hero-store a img {
+        width: 120px;
+    }
+    .py-70 {
+        padding-block: 30px;
+    }
+    .signup-inner h2 {        
+        font-size: 28px;        
+    }
+    .signup-inner label {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .header-logo a img {
+        height: 46px;
+    }
+    .header-inner .col-2.col-md-2 {
+        padding-inline: 0px;
+    }
+    .hero-banner-content {
+        width: 300px;
+    }    
+    .hero-banner-content p {
+        font-size: 14px;
+        margin-block: 10px;
+        width: 300px;
+    }
+    .hero-banner-content h1 {
+        font-size: 22px;
+    }
+    .hero-outer {
+        padding-block: 50px;
+    }
+    .hero-store a img {
+        width: 100px;
+    }
+    .about-right {
+        padding-inline: 0;        
+    }
+    .min-heading {
+        font-size: 18px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .check-text {   
+        font-size: 14px;
+    }
+    .about-points ul li {
+        padding-block-start: 14px;
+    }
+    .car-title {
+        padding-block-end: 0px;
+    }
+    .car-details img {
+        padding-block-start: 10px;
+    }
+    .media-apps ul li i {
+        padding: 8px;
+    }
+    .footer-content ul li h5 {
+        font-size: 16px;
+    }
+    .footer-txt {
+        font-size: 18px;
+    }
+    .main h2 {        
+        font-size: 28px;        
+    }
+    .main label {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 414px){
+    .hero-outer {
+        padding-block: 35px;
+    }    
+    .nav-sigin h3 {
+        font-size: 18px;        
+    }
+    .py-70 {
+        padding-block: 20px;
+    }
+    .hero-banner-content p {
+        width: 250px;
+    }
+    .hero-outer {
+        padding-block: 25px;
+    }
+    .heading {
+        padding-block-start: 10px;
+    }
+    .min-heading {
+        padding-block-start: 10px;
+    }
+}
+@media screen and (max-width: 375px){
+    .download-app {
+        padding-block-start: 20px;
+    }
+    .signup-inner {        
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 325px){
+    .hero-outer {
+        padding-block: 15px;
+    }
+}
